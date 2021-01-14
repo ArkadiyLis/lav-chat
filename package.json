@@ -1,0 +1,20 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.20",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "socket.io": "^3.0.5",
+    "socket.io-client": "^3.0.5"
+  }
+}
